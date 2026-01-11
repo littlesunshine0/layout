@@ -1,0 +1,11 @@
+version: "Swift version 6.0.3 (swift-6.0.3-RELEASE)"
+options: "52b06d2ef2b98402fa3dd9b445f638f35afe075d9027e0d38fc6a1ca24a4cbef"
+build_start_time: [1768113003, 748022000]
+build_end_time: [1768113008, 696703000]
+inputs:
+  "/workspaces/layout/CLI/main.swift": [1768112588, 0]
+  "/workspaces/layout/widow/integration/CRUDManager.swift": [1768112588, 0]
+  "/workspaces/layout/widow/integration/FlowKitAdapter.swift": [1768112588, 0]
+  "/workspaces/layout/widow/integration/FlowKitTerminalCommands.swift": [1768112799, 0]
+  "/workspaces/layout/widow/integration/KitPackageMapper.swift": [1768112588, 0]
+  "/workspaces/layout/widow/packages/PackageManager.swift": [1768112588, 0]

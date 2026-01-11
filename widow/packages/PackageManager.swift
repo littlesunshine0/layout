@@ -1,13 +1,13 @@
-import SwiftUI
+import Foundation
 
 /// Package manager for importing and managing window templates
-class PackageManager: ObservableObject {
+class PackageManager: @unchecked Sendable {
     static let shared = PackageManager()
     
     let packagesDirectory = URL(fileURLWithPath: "/workspaces/layout/Packages")
     let projectsDirectory = URL(fileURLWithPath: "/workspaces/layout/Projects")
     
-    @Published var availablePackages: [String] = []
+    var availablePackages: [String] = []
     
     init() {
         loadPackages()

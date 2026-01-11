@@ -1,0 +1,6 @@
+/workspaces/layout/CLI/main.swift
+/workspaces/layout/widow/integration/CRUDManager.swift
+/workspaces/layout/widow/integration/FlowKitAdapter.swift
+/workspaces/layout/widow/integration/FlowKitTerminalCommands.swift
+/workspaces/layout/widow/integration/KitPackageMapper.swift
+/workspaces/layout/widow/packages/PackageManager.swift

@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/master.swiftdeps"
+  },
+  "/workspaces/layout/CLI/main.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/main.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/main.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/main~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/main.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/CRUDManager.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/CRUDManager.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/CRUDManager.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/CRUDManager~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/CRUDManager.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/FlowKitAdapter.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/FlowKitAdapter.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/FlowKitAdapter.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/FlowKitAdapter~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/FlowKitAdapter.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/FlowKitTerminalCommands.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/FlowKitTerminalCommands.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/FlowKitTerminalCommands.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/FlowKitTerminalCommands~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/FlowKitTerminalCommands.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/KitPackageMapper.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/KitPackageMapper.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/KitPackageMapper.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/KitPackageMapper~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/KitPackageMapper.swiftdeps"
+  },
+  "/workspaces/layout/widow/packages/PackageManager.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/PackageManager.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/PackageManager.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/PackageManager~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutCLI.build/PackageManager.swiftdeps"
+  }
+}

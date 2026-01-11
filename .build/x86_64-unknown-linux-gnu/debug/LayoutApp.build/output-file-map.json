@@ -1,0 +1,221 @@
+{
+  "": {
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/master.swiftdeps"
+  },
+  "/workspaces/layout/widow/LayoutApp.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/LayoutApp.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/LayoutApp.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/LayoutApp~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/LayoutApp.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/CRUDInterfaceView.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/CRUDInterfaceView.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/CRUDInterfaceView.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/CRUDInterfaceView~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/CRUDInterfaceView.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/CRUDManager.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/CRUDManager.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/CRUDManager.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/CRUDManager~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/CRUDManager.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/ChatHandler.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/ChatHandler.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/ChatHandler.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/ChatHandler~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/ChatHandler.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/FlowKitAdapter.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitAdapter.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitAdapter.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitAdapter~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitAdapter.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/FlowKitChatHandler.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitChatHandler.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitChatHandler.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitChatHandler~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitChatHandler.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/FlowKitDashboardView.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitDashboardView.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitDashboardView.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitDashboardView~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitDashboardView.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/FlowKitTerminalCommands.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitTerminalCommands.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitTerminalCommands.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitTerminalCommands~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FlowKitTerminalCommands.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/KitPackageMapper.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/KitPackageMapper.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/KitPackageMapper.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/KitPackageMapper~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/KitPackageMapper.swiftdeps"
+  },
+  "/workspaces/layout/widow/integration/TerminalHandler.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/TerminalHandler.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/TerminalHandler.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/TerminalHandler~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/TerminalHandler.swiftdeps"
+  },
+  "/workspaces/layout/widow/observer/FileSystemObserver.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FileSystemObserver.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FileSystemObserver.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FileSystemObserver~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/FileSystemObserver.swiftdeps"
+  },
+  "/workspaces/layout/widow/observer/PropertyMapper.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/PropertyMapper.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/PropertyMapper.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/PropertyMapper~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/PropertyMapper.swiftdeps"
+  },
+  "/workspaces/layout/widow/packages/LibraryBrowser.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/LibraryBrowser.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/LibraryBrowser.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/LibraryBrowser~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/LibraryBrowser.swiftdeps"
+  },
+  "/workspaces/layout/widow/packages/PackageManager.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/PackageManager.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/PackageManager.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/PackageManager~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/PackageManager.swiftdeps"
+  },
+  "/workspaces/layout/widow/preview/LivePreviewWindow.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/LivePreviewWindow.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/LivePreviewWindow.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/LivePreviewWindow~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/LivePreviewWindow.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/ToolbarStyle.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/ToolbarStyle.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/ToolbarStyle.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/ToolbarStyle~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/ToolbarStyle.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowAlphaValue.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowAlphaValue.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowAlphaValue.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowAlphaValue~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowAlphaValue.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowAspectRatio.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowAspectRatio.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowAspectRatio.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowAspectRatio~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowAspectRatio.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowBackgroundColor.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowBackgroundColor.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowBackgroundColor.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowBackgroundColor~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowBackgroundColor.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowCollectionBehavior.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowCollectionBehavior.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowCollectionBehavior.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowCollectionBehavior~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowCollectionBehavior.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowContentAspectRatio.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowContentAspectRatio.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowContentAspectRatio.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowContentAspectRatio~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowContentAspectRatio.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowFrame.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowFrame.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowFrame.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowFrame~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowFrame.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowHasToolbar.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowHasToolbar.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowHasToolbar.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowHasToolbar~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowHasToolbar.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowHidesOnDeactivate.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowHidesOnDeactivate.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowHidesOnDeactivate.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowHidesOnDeactivate~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowHidesOnDeactivate.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowIsClosable.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsClosable.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsClosable.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsClosable~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsClosable.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowIsFullScreen.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsFullScreen.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsFullScreen.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsFullScreen~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsFullScreen.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowIsMinimizable.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsMinimizable.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsMinimizable.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsMinimizable~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsMinimizable.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowIsResizable.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsResizable.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsResizable.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsResizable~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsResizable.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowIsVisible.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsVisible.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsVisible.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsVisible~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowIsVisible.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowLevel.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowLevel.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowLevel.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowLevel~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowLevel.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowRestorationBehavior.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowRestorationBehavior.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowRestorationBehavior.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowRestorationBehavior~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowRestorationBehavior.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowStyle.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowStyle.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowStyle.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowStyle~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowStyle.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowStyleMask.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowStyleMask.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowStyleMask.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowStyleMask~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowStyleMask.swiftdeps"
+  },
+  "/workspaces/layout/widow/properties/WindowTitle.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowTitle.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowTitle.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowTitle~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/WindowTitle.swiftdeps"
+  },
+  "/workspaces/layout/widow/sidebar/Sidebar.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/Sidebar.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/Sidebar.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/Sidebar~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/Sidebar.swiftdeps"
+  },
+  "/workspaces/layout/widow/sidebar/Sidebar2.swift": {
+    "dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/Sidebar2.d",
+    "object": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/Sidebar2.swift.o",
+    "swiftmodule": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/Sidebar2~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/layout/.build/x86_64-unknown-linux-gnu/debug/LayoutApp.build/Sidebar2.swiftdeps"
+  }
+}

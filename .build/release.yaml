@@ -1,0 +1,66 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "LayoutCLI-x86_64-unknown-linux-gnu-release.module": ["<LayoutCLI-x86_64-unknown-linux-gnu-release.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "layout-cli-x86_64-unknown-linux-gnu-release.exe": ["<layout-cli-x86_64-unknown-linux-gnu-release.exe>"]
+  "main": ["<LayoutCLI-x86_64-unknown-linux-gnu-release.module>","<layout-cli-x86_64-unknown-linux-gnu-release.exe>"]
+  "test": ["<LayoutCLI-x86_64-unknown-linux-gnu-release.module>","<layout-cli-x86_64-unknown-linux-gnu-release.exe>"]
+default: "main"
+nodes:
+  "/workspaces/layout/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/workspaces/layout/CLI/main.swift","/workspaces/layout/widow/integration/CRUDManager.swift","/workspaces/layout/widow/integration/FlowKitAdapter.swift","/workspaces/layout/widow/integration/FlowKitTerminalCommands.swift","/workspaces/layout/widow/integration/KitPackageMapper.swift","/workspaces/layout/widow/packages/PackageManager.swift"]
+    outputs: ["/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/sources"]
+    description: "Write auxiliary file /workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/sources"
+
+  "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/layout-cli.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/CRUDManager.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitAdapter.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitTerminalCommands.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/KitPackageMapper.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/PackageManager.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/main.swift.o"]
+    outputs: ["/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/layout-cli.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /workspaces/layout/.build/x86_64-unknown-linux-gnu/release/layout-cli.product/Objects.LinkFileList"
+
+  "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/swift-version--1BFCD5C06E9F820A.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/usr/share/swift/usr/bin/swiftc"]
+    outputs: ["/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/swift-version--1BFCD5C06E9F820A.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /workspaces/layout/.build/x86_64-unknown-linux-gnu/release/swift-version--1BFCD5C06E9F820A.txt"
+
+  "<LayoutCLI-x86_64-unknown-linux-gnu-release.module>":
+    tool: phony
+    inputs: ["/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/main.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/CRUDManager.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitAdapter.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitTerminalCommands.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/KitPackageMapper.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/PackageManager.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/Modules/LayoutCLI.swiftmodule"]
+    outputs: ["<LayoutCLI-x86_64-unknown-linux-gnu-release.module>"]
+
+  "<layout-cli-x86_64-unknown-linux-gnu-release.exe>":
+    tool: phony
+    inputs: ["/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/layout-cli"]
+    outputs: ["<layout-cli-x86_64-unknown-linux-gnu-release.exe>"]
+
+  "C.LayoutCLI-x86_64-unknown-linux-gnu-release.module":
+    tool: shell
+    inputs: ["/workspaces/layout/CLI/main.swift","/workspaces/layout/widow/integration/CRUDManager.swift","/workspaces/layout/widow/integration/FlowKitAdapter.swift","/workspaces/layout/widow/integration/FlowKitTerminalCommands.swift","/workspaces/layout/widow/integration/KitPackageMapper.swift","/workspaces/layout/widow/packages/PackageManager.swift","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/swift-version--1BFCD5C06E9F820A.txt","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/sources"]
+    outputs: ["/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/main.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/CRUDManager.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitAdapter.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitTerminalCommands.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/KitPackageMapper.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/PackageManager.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/Modules/LayoutCLI.swiftmodule"]
+    description: "Compiling Swift Module 'LayoutCLI' (6 sources)"
+    args: ["/usr/share/swift/usr/bin/swiftc","-module-name","LayoutCLI","-emit-dependencies","-emit-module","-emit-module-path","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/Modules/LayoutCLI.swiftmodule","-output-file-map","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/output-file-map.json","-whole-module-optimization","-num-threads","2","-c","@/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/sources","-I","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/Modules","-target","x86_64-unknown-linux-gnu","-O","-j2","-DSWIFT_PACKAGE","-module-cache-path","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","LayoutCLI_main","-swift-version","6","-g","-Xcc","-fPIC","-Xcc","-g","-package-name","layout","-Xcc","-fno-omit-frame-pointer"]
+
+  "C.layout-cli-x86_64-unknown-linux-gnu-release.exe":
+    tool: shell
+    inputs: ["/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/CRUDManager.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitAdapter.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitTerminalCommands.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/KitPackageMapper.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/PackageManager.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/main.swift.o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/layout-cli.product/Objects.LinkFileList"]
+    outputs: ["/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/layout-cli"]
+    description: "Linking ./.build/x86_64-unknown-linux-gnu/release/layout-cli"
+    args: ["/usr/share/swift/usr/bin/swiftc","-L","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release","-o","/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/layout-cli","-module-name","layout_cli","-emit-executable","-Xlinker","--gc-sections","-Xlinker","--defsym","-Xlinker","main=LayoutCLI_main","-Xlinker","-rpath=$ORIGIN","@/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/layout-cli.product/Objects.LinkFileList","-target","x86_64-unknown-linux-gnu","-g"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/workspaces/layout/","/workspaces/layout/Package.swift","/workspaces/layout/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

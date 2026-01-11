@@ -141,8 +141,12 @@ struct LivePreviewWindow: View {
                 TextField("Enter command...", text: $terminalInput)
                     .textFieldStyle(.plain)
                     .font(.system(.body, design: .monospaced))
+                    .foregroundColor(.green)
                     .onSubmit {
-                        executeTerminalCommand(terminalInput)
+                        let handler = TerminalHandler()
+                        let result = handler.execute(terminalInput)
+                        terminalOutput.append("$ \(terminalInput)")
+                        terminalOutput.append(result)
                         terminalInput = ""
                     }
             }
@@ -271,28 +275,17 @@ struct LivePreviewWindow: View {
         
         chatMessages.append(ChatMessage(text: chatInput, isUser: true))
         
-        // Simple AI response simulation
-        let response = processChatMessage(chatInput)
+        // Use ChatHandler for natural language processing
+        let handler = ChatHandler()
+        let response = handler.process(chatInput)
         chatMessages.append(ChatMessage(text: response, isUser: false))
         
         chatInput = ""
     }
     
     private func processChatMessage(_ message: String) -> String {
-        let lowercased = message.lowercased()
-        
-        if lowercased.contains("transparent") || lowercased.contains("opacity") {
-            if lowercased.contains("semi") || lowercased.contains("0.5") {
-                propertyMapper.alphaValue = 0.5
-                return "I've set the window opacity to 0.5 (semi-transparent)."
-            }
-        }
-        
-        if lowercased.contains("title") {
-            return "The current window title is '\(propertyMapper.windowTitle)'. Would you like to change it?"
-        }
-        
-        return "I can help you modify window properties. Try asking about opacity, title, size, or position."
+        let handler = ChatHandler()
+        return handler.process(message)
     }
     
     private func loadCodeContent() {

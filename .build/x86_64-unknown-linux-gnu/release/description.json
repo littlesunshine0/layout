@@ -1,0 +1,282 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.LayoutCLI-x86_64-unknown-linux-gnu-release.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/sources",
+      "importPath" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/CLI/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/widow/integration/CRUDManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/widow/integration/FlowKitAdapter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/widow/integration/FlowKitTerminalCommands.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/widow/integration/KitPackageMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/widow/packages/PackageManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "LayoutCLI",
+      "moduleOutputPath" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/Modules/LayoutCLI.swiftmodule",
+      "objects" : [
+        "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/main.swift.o",
+        "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/CRUDManager.swift.o",
+        "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitAdapter.swift.o",
+        "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitTerminalCommands.swift.o",
+        "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/KitPackageMapper.swift.o",
+        "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/PackageManager.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-O",
+        "-j2",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "LayoutCLI_main",
+        "-swift-version",
+        "6",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "layout",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/CRUDManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitAdapter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitTerminalCommands.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/KitPackageMapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/PackageManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/Modules/LayoutCLI.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/workspaces/layout/CLI/main.swift",
+        "/workspaces/layout/widow/integration/CRUDManager.swift",
+        "/workspaces/layout/widow/integration/FlowKitAdapter.swift",
+        "/workspaces/layout/widow/integration/FlowKitTerminalCommands.swift",
+        "/workspaces/layout/widow/integration/KitPackageMapper.swift",
+        "/workspaces/layout/widow/packages/PackageManager.swift"
+      ],
+      "tempsPath" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "LayoutCLI" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "LayoutCLI",
+      "-package-name",
+      "layout",
+      "-whole-module-optimization",
+      "-num-threads",
+      "2",
+      "-c",
+      "/workspaces/layout/CLI/main.swift",
+      "/workspaces/layout/widow/integration/CRUDManager.swift",
+      "/workspaces/layout/widow/integration/FlowKitAdapter.swift",
+      "/workspaces/layout/widow/integration/FlowKitTerminalCommands.swift",
+      "/workspaces/layout/widow/integration/KitPackageMapper.swift",
+      "/workspaces/layout/widow/packages/PackageManager.swift",
+      "-I",
+      "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-O",
+      "-j2",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "LayoutCLI_main",
+      "-swift-version",
+      "6",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "layout",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "LayoutCLI" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/CLI/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/widow/integration/CRUDManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/widow/integration/FlowKitAdapter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/widow/integration/FlowKitTerminalCommands.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/widow/integration/KitPackageMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/widow/packages/PackageManager.swift"
+        }
+      ],
+      "outputFilePath" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/sources"
+    },
+    "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/layout-cli.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/CRUDManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitAdapter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/FlowKitTerminalCommands.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/KitPackageMapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/PackageManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/LayoutCLI.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/layout-cli.product/Objects.LinkFileList"
+    },
+    "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/swift-version--1BFCD5C06E9F820A.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/usr/share/swift/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/workspaces/layout/.build/x86_64-unknown-linux-gnu/release/swift-version--1BFCD5C06E9F820A.txt"
+    }
+  }
+}
