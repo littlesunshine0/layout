@@ -1,0 +1,29 @@
+# Window Package: HUD Window
+# Pre-configured template for HUD (Heads-Up Display) style windows
+
+[Metadata]
+PackageName=HUDWindow
+Version=1.0.0
+Author=System
+Description=A semi-transparent floating HUD window
+
+[Properties]
+WindowTitle=HUD
+WindowIsVisible=true
+WindowFrame=x:50,y:50,width:400,height:150
+WindowIsResizable=false
+WindowIsMinimizable=false
+WindowIsClosable=true
+WindowIsFullScreen=false
+WindowAlphaValue=0.85
+WindowBackgroundColor=r:0.1,g:0.1,b:0.1,a:0.9
+WindowCollectionBehavior=canJoinAllSpaces,stationary
+WindowStyleMask=borderless,hudWindow
+WindowLevel=3
+WindowAspectRatio=width:16,height:9
+WindowHasToolbar=false
+ToolbarStyle=automatic
+WindowStyle=plain
+WindowHidesOnDeactivate=false
+WindowRestorationBehavior=none
+WindowContentAspectRatio=width:16,height:9

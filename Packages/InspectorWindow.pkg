@@ -1,0 +1,29 @@
+# Window Package: Inspector Window
+# Pre-configured template for Inspector-style windows
+
+[Metadata]
+PackageName=InspectorWindow
+Version=1.0.0
+Author=System
+Description=A utility inspector window with toolbar and fixed aspect ratio
+
+[Properties]
+WindowTitle=Inspector
+WindowIsVisible=true
+WindowFrame=x:100,y:100,width:300,height:500
+WindowIsResizable=true
+WindowIsMinimizable=true
+WindowIsClosable=true
+WindowIsFullScreen=false
+WindowAlphaValue=1.0
+WindowBackgroundColor=r:1.0,g:1.0,b:1.0,a:1.0
+WindowCollectionBehavior=managed,participatesInCycle
+WindowStyleMask=titled,closable,miniaturizable,resizable,utilityWindow
+WindowLevel=1
+WindowAspectRatio=width:3,height:5
+WindowHasToolbar=true
+ToolbarStyle=unified
+WindowStyle=default
+WindowHidesOnDeactivate=false
+WindowRestorationBehavior=default
+WindowContentAspectRatio=width:3,height:5
